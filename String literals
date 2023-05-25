@@ -1,2 +1,17 @@
-#This is a comment and I am learning about git
+# In order to understand how to do something you need to practice
 
+# To practice I am going to write a small program
+
+# This block of code below starts with def
+# The function is called mynumber
+# It is followed by a pararentheses and inside the pararenthisis is a paramter
+# The code is followed by a colon
+# Once you press return it indents it
+# return is a keyword
+
+def mynumber(num):
+    return num
+
+
+print("Hell World the number in my number is:")
+print(mynumber(17))
