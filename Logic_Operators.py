@@ -31,11 +31,16 @@
 
 def this_is_my_string(mystr):
     first_letter = mystr[0]  # First letter is the variable of mystr first letter
-    if first_letter == "T" or first_letter == "X":
-        return "This is True"  # You do not  need the parenthases after return
+    if first_letter == "G" or first_letter == "X":
+        print("True")  # You do not  need the parenthases after return
     else:
-        return "There is not true dummy"
+        print("False")
 
 
-this_is_my_string("Hello there")
-this_is_my_string("The man is away to Spain")
+this_is_my_string("Hello there")  # The output will be False as the first letter is "H"
+this_is_my_string(
+    "The man is away to Spain"
+)  # The output will be False as the first letter is "T"
+this_is_my_string(
+    "Gengis Khan was the man"
+)  # The output will be true as the first letter is "G"
