@@ -25,7 +25,7 @@ def report_long_words(words):
     return report
 
 
-print(report_long_words(["Hello", "mweomovmwom o3", "hello-you-are-the-best"]))
+print(report_long_words(["Hello", ]))
 
 
 def large_power(base, exponent):
